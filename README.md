@@ -1,3 +1,3 @@
 Total hashes: 11933
-Successfully unhashed: 5939 (49.77%)
-Unsolved: 5994 (50.23%)
+Successfully unhashed: 5976 (50.08%)
+Unsolved: 5957 (49.92%)

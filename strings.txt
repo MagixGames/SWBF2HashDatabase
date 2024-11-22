@@ -64,10 +64,12 @@ AbortWhenAlerted
 AbortWhenTimedOut
 above
 AbsoluteMinFOV
+absorbing
 AccelerateTime
 Acceleration
 AccelerationDriftForce
 AccelerationScale
+accumulated
 AccumulatedInputs
 AccuracyUpdateTime
 ActIndex
@@ -113,6 +115,7 @@ AdditionalWaterDepth
 Additive
 AddPlayersOnCreate
 Aerial
+affect
 AffectDiffuse
 AffectedBy
 AffectedLayers
@@ -245,6 +248,7 @@ AntBindings
 AntennaBase
 AntGameStates
 AntialiasMultiplier
+AOQ
 AP_AimNoiseScale_Mode1
 AP_AllowSuicide_Mode1
 AP_AT-ST Health COOP
@@ -361,6 +365,8 @@ Array
 ArrayIndex
 Arrow
 Article
+Aryl
+Aryn
 Ascending
 Aspect
 AspectRatio
@@ -439,6 +445,7 @@ AttackingPlayerCount
 AttackingTeam
 AttackingTeamId
 AttackProtectiveCoverQuery
+attacks
 AttackTactic
 AttackType
 AttackValidCoverQuery
@@ -512,6 +519,7 @@ BaseViscosityStrengthZoomed
 battlepoints
 Battlepoints
 BC
+BCD
 Behavior
 BehaviourIndex
 BehaviourType
@@ -520,6 +528,7 @@ BeingCapturedLimit_Defend
 BelowWaterDamageDelay
 BerserkTactic
 BestTargetAngle
+bet
 BGAlpha
 BiasSkyVisibility
 big
@@ -588,6 +597,8 @@ BoostExitTime
 BoostMaxSpeed
 BoostMaxSpeedMultiplier
 BoostMaxSpeedOverride
+BOQ
+both
 BottomLeftCornerRoundness
 BottomRightCornerRoundness
 Bounded
@@ -672,12 +683,15 @@ CancelOnDeinit
 CancelReservation
 CanEquip
 CanHeroSpawnOn
+canister
 CannedAnimBinding
 Cannon_02
 Cannon_03
 CanRestart
+cansos
 CanSpawnOn
 CanTakeDynamicFireDamage
+cap
 CapitalSupremacy_MaxCount_AAT_KASH
 CapitalSupremacy_MaxCount_AAT_NAB
 CapitalSupremacy_MaxCount_AllTeam1Vehicles_KASH
@@ -715,6 +729,7 @@ Cards
 CardSlotIndex
 CardType
 Career
+carried
 Case 0
 Case 1
 Case 10
@@ -793,6 +808,7 @@ Characters
 Characters/Zombie/Playable/Pirate/Tattoo/Pirate_Tattoo_HibachiCookout_Override
 CharacterToTeleport
 Charge
+charges
 chargeup
 ChargeUp
 ChatChannel
@@ -1030,6 +1046,7 @@ CullingLevel
 CullingPlanes
 CullScreenArea
 CullWhenNotInView
+curr
 currency
 Currency
 CurrencyFilter
@@ -1222,6 +1239,7 @@ Defending
 DefendingTeam
 DefensiveMove
 Definition
+Deflect
 DefuseRadius
 degrees
 Degrees
@@ -1447,6 +1465,7 @@ EndIndex
 EndOfRound
 EndTime
 EnemeyTooCloseDistance
+enemies
 enemy
 EnemyColor
 EnemyHasHumanTarget
@@ -1511,6 +1530,7 @@ EraAppropriate
 Error
 ErrorCode
 ErrorMessageStringId
+escort
 EscortProgress
 EstimatedTimeRemaining
 EV
@@ -1763,6 +1783,7 @@ ForwardBiasMinSpeed
 ForwardEmptyResults
 ForwardThrust
 ForwardToSpectators
+FOS
 Fov
 FOV
 FovBlendFactor
@@ -2114,6 +2135,7 @@ GroupRequests
 Groups
 Growth
 Gun
+gyte
 h
 h1
 H1
@@ -2240,6 +2262,7 @@ Hostile
 hover
 Hovered
 HoveredTextColor
+hp
 ht
 hu
 HUD
@@ -2354,6 +2377,7 @@ InCombatWhenAffectorAppliedToMe
 InCombatWhenAppliedAffectorToOpponent
 InCombatWhenFiringWeapon
 InCombatWhenNearGrenade
+incomplete
 Increase
 Increment
 InData
@@ -2873,6 +2897,7 @@ IntroPath
 IntSetting
 IntSettingName
 IntValue
+inv
 invalid
 InValue
 InVehicle
@@ -3084,6 +3109,8 @@ JointOutputMode
 JointOutputPropertyIds
 JointWorldTransformUpdateOrder
 Jq
+Js
+Jt
 JuiceSessionId
 Jump
 JumpCooldown
@@ -3092,6 +3119,7 @@ Jumping
 JumpInput
 Jv
 k
+K.
 KeepAlive
 KeepRemoved
 Key
@@ -3232,6 +3260,7 @@ Lists
 ListSize
 lives
 LM
+Loa
 Load
 Loaded
 Loading
@@ -3467,6 +3496,7 @@ MaxYawIn
 MaxYawSpeed
 MaxYawSpeedForMaxSwing
 me
+measured
 medalindex
 MedalIndex
 MediumJumpHeight
@@ -3675,6 +3705,7 @@ MultiPlayer
 MultiPlayerBehavior
 multiplier
 Multiplier
+multirole
 Mutter
 MutuallyExclusiveGroups
 MvpCap
@@ -3724,6 +3755,8 @@ NewRank
 newValue
 NewValue
 next
+NI
+NIA
 NKr
 nO
 NoCollision
@@ -3753,6 +3786,7 @@ NotEqual
 NotFlashedDetonationEffect
 NoVehicleCollisionTime
 nt
+nu
 num
 NumAntAssets
 NumberOfPlayers
@@ -3811,6 +3845,7 @@ OfferId
 OfferIndex
 Offers
 Officer
+Officers
 Offline
 offset
 Offset
@@ -3992,6 +4027,7 @@ OnUpdateEvents
 OnValueChanged
 OnVehicleDeployFailed
 OOB
+OOT
 Open
 Opened
 OpenStart
@@ -4009,6 +4045,7 @@ OptionName
 OptionsToKeep
 OptionsToSet
 OrbitalWorldTransform
+orig
 origin
 Origin
 Original
@@ -4020,6 +4057,7 @@ OscillationFrequency
 oT
 OtherPlayer
 OtherTeam
+Ours
 Out
 Out_Vec3
 Out0
@@ -4101,6 +4139,7 @@ OverrideType
 OverrideValue
 OverrideWorldPosition
 OverrideYaw
+Overtimer
 OvertimeTimer
 Overwrite
 owned
@@ -4201,6 +4240,7 @@ PersonalBestDataCoop1
 PersonalBestDataCoop2
 PersonalBestDataCoop3
 PhantomTransform
+PharD
 Phase
 Phase1
 Phase2
@@ -4328,6 +4368,7 @@ PointIndex
 points
 Points
 PopupResponse
+Pory
 pos
 Poses
 PoseToCheck
@@ -4412,6 +4453,7 @@ ProxyConvergenceDuration
 ProxyConvergenceInstantOnAttach
 ProxyVisualConvergenceDelay
 ProxyVisualConvergenceDuration
+Ps
 pt
 Publish
 PurchasesLeft
@@ -4420,6 +4462,7 @@ PushDuration
 Pushed
 PushForce
 pw
+Qh
 qU
 QualifiedTypeName
 QueenHoneyBee
@@ -4575,6 +4618,7 @@ RenderOnTopBehavior
 RenderOnTopOffset
 RenderSkeletonBasePose
 RenderTarget
+repairable
 ReplacedAbility
 ReplacementLocalizedStringId
 Replay
@@ -4791,8 +4835,11 @@ Section6
 Section7
 Section8
 Section9
+Secured
+Securing
 SeeThrough
 segments
+seismic
 Select
 Select0
 Select1
@@ -4879,6 +4926,7 @@ SetVariation0
 SetVariation1
 SetVariation2
 SetWantedConnectJointTransform
+several
 Severity
 Shader
 ShaderLowDetail
@@ -5011,6 +5059,7 @@ SnapHeightOffsetY
 SnapHeightOnKilledDestroyed
 Snapping
 SnappingHeightOffset
+sniff
 SnowglobeComponent
 Soldier
 SoldierDetonationData
@@ -5094,6 +5143,7 @@ SpeedOverride
 SpeedScale
 SphereCollisionRadius
 SphereRadius
+spin
 Spine
 splitscreen
 Splitscreen
@@ -5246,6 +5296,7 @@ StreamOut
 StreamOutOnActivated
 StreamRealm
 Strength
+Striked
 StrikeWeaponId
 String
 StringHash
@@ -5277,6 +5328,7 @@ SuppressedInputs
 SuppressionData
 SupremacyMode
 SurroundCapture
+survivalist
 SuspicionLevel
 SvgIcon
 SvgImage
@@ -5409,6 +5461,7 @@ Textures
 ThisMoveFrame
 ThisStarfighterTransform
 ThreadCount
+Threaden
 ThreatDistanceMultiplier
 threshold
 Threshold
@@ -5620,10 +5673,12 @@ UintSettingName
 UIStarCardData
 UIStarCardsInput
 UIStarCardsOutput
+UK
 UL
 UN
 Unavailable
 Undefined
+under
 Unequip
 UnguidedData
 UniformDistribution
@@ -5765,6 +5820,7 @@ ValueInt
 ValuePrefix
 values
 Values
+Vanguard
 VariableName
 VariableType
 Variance
@@ -5869,9 +5925,12 @@ VoiceOverInfo
 VoiceOverLabels
 Volume
 VoObjectPropertiesArray
+Vp
 Vs
+vv
 w
 W
+W.
 WaitForCheckpointReady
 WaitForDisplay
 WaitForMorePlayersTime
@@ -5949,6 +6008,7 @@ WindEffect
 WindScale
 WindSpeed
 WingmateAvoidanceMaxCount
+winning
 winningTeam
 WinningTeam
 wins
@@ -5956,6 +6016,8 @@ WipeTarget
 WipeTime
 WipeType
 Wireframe
+wobble
+won
 world
 WorldAimPos
 WorldAngVel
