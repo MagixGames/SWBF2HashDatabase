@@ -18,30 +18,6 @@ HashSet<int> unhashed = new HashSet<int>();
 HashSet<int> stillHashed = new HashSet<int>();
 List<string> strings = new List<string>(); // making it a list so it can be sorted nicely later :D
 
-// tmp
-//DirectoryInfo dir = new DirectoryInfo("E:\\Workspace\\FrostyToolsuite\\FrostyEditor\\bin\\Developer\\Debug\\BlueprintEditor\\NodeMappings\\EveryHash\\Test");
-
-//foreach (FileInfo file in dir.GetFiles())
-//{
-//    string text = File.ReadAllText(file.FullName);
-//    string[] lines = text.Split('\n');
-//    foreach (string line in lines)
-//    {
-//        string l = line.Trim();
-//        if (l == string.Empty) continue;
-//        if (l.StartsWith("0x"))
-//        {
-//            allHashes.Add(int.Parse(l.Substring(2), System.Globalization.NumberStyles.HexNumber));
-//            stillHashed.Add(int.Parse(l.Substring(2), System.Globalization.NumberStyles.HexNumber));
-//            continue;
-//        }
-//        int h = hash(l);
-//        allHashes.Add(h);
-//        strings.Add(l);
-//        unhashed.Add(h);
-//    }
-//}
-
 // Read hashes txt
 string text = File.ReadAllText("hashes.txt");
 string[] lines = text.Split('\n');
@@ -71,16 +47,10 @@ foreach (string line in lines)
 }
 strings.Sort();
 
-//StringBuilder sbAllHashes = new StringBuilder();
 StringBuilder sbStrings = new StringBuilder();
 StringBuilder sbUnhashed = new StringBuilder();
 StringBuilder sbStillHashed = new StringBuilder();
 StringBuilder sbCompletion = new StringBuilder();
-
-//foreach (var h in allHashes)
-//{
-//    sbAllHashes.AppendLine(ToString(h));
-//}
 
 foreach (var s in strings)
 {
@@ -99,9 +69,8 @@ sbCompletion.AppendLine($"Total hashes: {allHashes.Count}");
 sbCompletion.AppendLine($"Successfully unhashed: {unhashed.Count} ({(((float)unhashed.Count / allHashes.Count) * 100):0.00}%)");
 sbCompletion.AppendLine($"Unsolved: {allHashes.Count - unhashed.Count} ({((((float)allHashes.Count - unhashed.Count) / allHashes.Count) * 100):0.00}%)");
 
-//File.WriteAllText("hashes.txt", sbAllHashes.ToString());
 File.WriteAllText("strings.txt", sbStrings.ToString());
 File.WriteAllText("unhashed.txt", sbUnhashed.ToString());
 File.WriteAllText("unsolved.txt", sbStillHashed.ToString());
 File.WriteAllText("result.txt", sbCompletion.ToString());
-File.WriteAllText("README.md", sbCompletion.ToString()); // same as result but for githuv
+File.WriteAllText("README.md", sbCompletion.ToString()); // same as result but for github
