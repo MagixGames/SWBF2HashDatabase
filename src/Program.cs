@@ -47,9 +47,22 @@ foreach (string line in lines)
 }
 strings.Sort();
 
+// Find collisions
+Dictionary<int, List<string>> collisions = new Dictionary<int, List<string>>();
+foreach (string s in strings)
+{
+    int hash = Hash(s);
+    if (!collisions.ContainsKey(hash))
+    {
+        collisions[hash] = new List<string>();
+    }
+    collisions[hash].Add(s);
+}
+
 StringBuilder sbStrings = new StringBuilder();
 StringBuilder sbUnhashed = new StringBuilder();
 StringBuilder sbStillHashed = new StringBuilder();
+StringBuilder sbCollisions = new StringBuilder();
 StringBuilder sbCompletion = new StringBuilder();
 
 foreach (var s in strings)
@@ -64,6 +77,19 @@ foreach (var h in stillHashed)
 {
     sbStillHashed.AppendLine(ToString(h));
 }
+foreach (var h in collisions)
+{
+    if (h.Value.Count <= 1)
+    {
+        continue;
+    }
+
+    sbCollisions.AppendLine($"Hash: {ToString(h.Key)} [ {string.Join(", ", h.Value.Select(s => $"\"{s}\""))} ]");
+}
+if (sbCollisions.Length == 0)
+{
+    sbCollisions.AppendLine("No collisions found :D");
+}
 
 sbCompletion.AppendLine($"Total hashes: {allHashes.Count}");
 sbCompletion.AppendLine($"Successfully unhashed: {unhashed.Count} ({(((float)unhashed.Count / allHashes.Count) * 100):0.00}%)");
@@ -72,5 +98,6 @@ sbCompletion.AppendLine($"Unsolved: {allHashes.Count - unhashed.Count} ({((((flo
 File.WriteAllText("strings.txt", sbStrings.ToString());
 File.WriteAllText("unhashed.txt", sbUnhashed.ToString());
 File.WriteAllText("unsolved.txt", sbStillHashed.ToString());
+File.WriteAllText("collisions.txt", sbCollisions.ToString());
 File.WriteAllText("result.txt", sbCompletion.ToString());
 File.WriteAllText("README.md", sbCompletion.ToString()); // same as result but for github

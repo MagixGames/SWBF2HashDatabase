@@ -1804,6 +1804,7 @@ Checkpoint2
 Checkpoint2Distance
 Checkpoint2Progress
 CheckpointActivated
+CheckpointDistance1
 CheckpointDistance2
 CheckpointLoaded
 CheckpointName
@@ -4748,6 +4749,7 @@ Influence_ACaptureProgress_E
 Influence_ARecreateAfterDisabled
 Ingame
 InGameMusicMuted
+InGroup
 InHeroName
 InHideOtherObjectives
 InIcon
@@ -8529,10 +8531,6 @@ P
 p_loc
 p_locHideContent
 p_team_id
-P@2
-p`E
-p<x
-p=~
 p0
 p00
 p01
@@ -8930,7 +8928,6 @@ PlayType
 PlayUnlock
 PlayUpgrade
 Plength
-pm1
 PodA_Completed
 PodB_Completed
 Point0
@@ -8997,7 +8994,6 @@ PowerModifier
 PowerModifierWhenFired
 PowerStartTime
 PowerUp
-PQ+2
 Pre_Corvus
 pregame
 PreHack
@@ -9099,12 +9095,6 @@ Pursuer2
 Pushed
 pv
 pvCausesAIToFlee
-pw
-QQs
-qRoAK
-QRP
-QRS
-qSNAK
 Qt
 QTE
 QtHealth
@@ -9555,16 +9545,8 @@ RunUpSpawns
 RZ-2A-Wing
 s
 S
-S &n
 S_HOTH_FightersEnabled
 S_MOS_FightersEnabled
-s,[%7
-s,c{s
-s,c{sp
-s,cVV
-s,czW]
-S@
-S`
 S0450_Takeoff
 S0600_Takeoff
 S0600_TakeoffCharacterIdOverride
@@ -10230,6 +10212,7 @@ Skin
 SkinAurebeshName
 SkinDescription
 SkinEmote_Enter
+SkinEmote_Exit
 SkinId
 SkinName
 SkinnedModel
@@ -11018,10 +11001,8 @@ SwordGuardDurationTimeMaxS
 SwordGuardDurationTimeMinS
 t
 T
-T O
 T-65BX-Wing
 T-70X-Wing
-T!,1#
 T00
 T01
 T02
@@ -11832,6 +11813,7 @@ Uncommon
 UncommonBankingSpeed
 Undefined
 Undeploy
+UnDeploy
 under
 Underage
 UnderFire
@@ -12538,8 +12520,6 @@ YOffset
 Ypos
 z
 Z
-Z%&Y7
-z1
 ZAlignWithGroundNormal
 zero
 Zero
