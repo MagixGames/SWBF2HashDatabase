@@ -1,6 +1,11 @@
 _Transform
+- .?AVIrSinh@@
+- CEEEEI
+- The DxgkDdiOPMConfigureProtectedOutput function cannot enable HDCP because the display adapter's HDCP hardware is already being used by other physical outputs.
+- The modem did not accept the command sent to it.
 !APVehicleSpawn_Enabled_Attack_END
 !APVehicleSpawn_Enabled_Attack_FEL
+!APVehicleSpawn_Enabled_Attack_FELArg2
 !APVehicleSpawn_Enabled_Attack_GEO
 !APVehicleSpawn_Enabled_Attack_HO
 !APVehicleSpawn_Enabled_Attack_KASH
@@ -21,37 +26,190 @@ _Transform
 0
 0.0
 0.3
+0.3IsRetriggerable
 0.5
+0jo
+0p
 0Players
+0pv
+0pW
+0r
+0r0
+0S
+0t
+0u
+0v
+0v0
+0w
+0w0
+0z
+1
 1 Engine
+1.0
+10
+100
+10r
+10w
+11
+12
+120
+125
+12CameraOverrideTransform
+12CameraTransform
+12r
+13
+14
+1484036420
+15
+150
+16
+17
+17P
+18
+180
+19
 1CP
 1CPs
 1Finished
 1on1
 1p
 1P
+1pActive
+1pCameraActive
+1PCameraActive
+1pCameraOverrideTransform
+1pCameraTransform
 1Players
+1Pv
+1PW
+1r
 1s
+1S
+1T
+1w
+1W
 1WalkerRemain
+1Z
+2
 2 Engines
+2.407683
+20
+200
+21
+22
+22v
+22W
+23
+23CameraActive
+23v
+23W
+24
+240
 24Players
+25
+250
+26
+27
+28
+29
+29LoadoutWeaponsList
+2a3
+2a3AP_Waves_PauseTime_Short_Attack
+2a3MaxValue
+2a3s
 2CP
+2CPOut0
 2CPs
+2Finished
 2Left1st
+2Left1stStrikeWeaponId
 2Left2nd
+2nw
 2on1
 2on2
 2P
 2Players
+2R
+2T
+2TP
+2W
 2WalkerRemain
+2Z
+3
 3 Engines
+3.235853E-06
+30
+300
+31
+32
+32Active
+32CameraActive
+32CameraOverrideTransform
+32CameraTransform
+35
 360
 3CP
+3CPAP_Waves_PauseTime_Short_Attack
+3CPMaxValue
 3CPs
+3CPsPlanetIndex
+3Finished
+3M3
+3M5
+3p
+3p0
 3Players
+3r
+3s
+3t
+3u
+3v
+3w
+3z
+4
 4 Engines
+40
+40r
+420
+45
+45EnteringObjective
 4CPs
 4Players
+4r
+5
+5. 1A
+50
+500
+50OnCaptureSaved
+5CPs
+5InputActivateWarningVFX_1p_Red
+5J;)4
+5S
+5w
+6
+6 R1
+60
+600
+6p0
+6r
+6S
+6S0
+6SOnCaptureSaved
+6w
+7
+75
+7r
+7S
+7Sr
+8
+87.57288
+8F:x8{
+9
+90
+999
+9B(V)0
+9X#?<\P4=
+9X#?<\P4=RangeMax
 a
 A
 A!=B
@@ -296,7 +454,6 @@ AIWaypointsShapeData2
 AIWaypointsShapeData3
 AIWaypointsShapeData4
 AIWaypointsShapeData5
-ajN
 Alert
 AlertColor
 Alerted
@@ -367,7 +524,6 @@ AltLineOpacity
 AlwaysEnabled
 AlwaysShow
 AlwaysSpawnSoldiersInVehiclesLockAmount
-AM-
 ammo
 Ammo
 Amount
@@ -597,7 +753,6 @@ AP_VehicleSpawnProbability_Mode8
 AP_VehicleUseCharacterThrottle
 AP_Waves_ForceSpawnTime_Attack_Phase1
 AP_Waves_ForceSpawnTime_Attack_Phase2
-AP_Waves_ForceSpawnTime_Attack_Phase2MaxAimAdjustAngle
 AP_Waves_ForceSpawnTime_Attack_Phase2SetTeamOnSpawn
 AP_Waves_ForceSpawnTime_Attack_Phase3
 AP_Waves_ForceSpawnTime_Attack_Phase4
@@ -1254,7 +1409,6 @@ BlockZoom
 BlockZoomToggle
 BlockZoomUseEntityTransformForDetonationEffect
 BloomScale
-bloomuv_1500 = _1499;
 Blue
 Blueprint
 Blueprints
@@ -1761,7 +1915,6 @@ CharacterNarrativeState_NonCombat_Unarmed
 CharacterOverride
 CharacterRankLevel
 Characters
-Characters/Zombie/Playable/Pirate/Tattoo/Pirate_Tattoo_HibachiCookout_Override
 CharacterSkin
 CharacterSpawned
 CharacterSpawner
@@ -2312,7 +2465,6 @@ Cx
 Cz
 d
 D
-D.lT
 D$`G'
 D05E
 d1
@@ -2322,7 +2474,6 @@ d4
 d5
 d6
 d7
-D7
 d8
 damage
 Damage
@@ -3321,7 +3472,6 @@ FastSpawnExit
 FastSpawnManager
 FastSpawnManagerFloat3
 FastSpawnPlayer
-FBE
 FEL_ATTE_Hitpoints
 Fighter
 Fill
@@ -3569,7 +3719,6 @@ FrontEndIndex
 FrontEndIsActive
 FrontEngineLoop
 fSound
-Fu
 fuel
 Fuel
 FuelAmount
@@ -3657,7 +3806,6 @@ GamePlatform_Gen4aDisableCollisionAvoidance
 GamePlatform_Gen4b
 Gameplay
 Gameplay/Kits/Affector_RemoveAffector_HealthMaxed
-Gameplay/Vehicles/Ground/X34/Vehicle_Ground_X34-AP_Camera
 GameplayBones_WeaponMuzzleBone
 GameplayBones_WeaponMuzzleBone2
 GameplayBones_WeaponMuzzleBone4
@@ -4166,7 +4314,6 @@ H2
 h3
 H3
 h3m
-H4
 H5
 H6
 Hack
@@ -4553,7 +4700,6 @@ hwGroundTransform
 HyperspeedCine
 HyperspeedCineFinalShot
 i
-i(
 Icon
 IconAlpha
 IconAttacker
@@ -4748,6 +4894,7 @@ Influence_ACaptureProgress_E
 Influence_ARecreateAfterDisabled
 Ingame
 InGameMusicMuted
+InGroup
 InHeroName
 InHideOtherObjectives
 InIcon
@@ -5656,7 +5803,6 @@ IronsightsDofActive
 IronsightsDofCircleBlur
 IronsightsDofCircleDistance
 Is
-Is0Q
 is1p
 Is1p
 Is1pCamera
@@ -5666,8 +5812,6 @@ Is3p
 Is3P
 Is3pCamera
 Is3pLocalizedStringId1
-Is47
-Is56
 IsAbility
 IsAbilityBoost
 IsActivated
@@ -5748,7 +5892,6 @@ IsCurrentlyBeingCaptured
 IsCurrentlyBeingCapturedAlpha
 IsCurrentPhase
 ISD
-IsD,
 IsDarkSide
 IsDarkSideDampingPerAxis
 IsDay
@@ -6152,7 +6295,6 @@ ItemVisible
 iType
 iU
 j
-j52
 JammerEnabled
 JesusMode
 Jetpack
@@ -6165,16 +6307,10 @@ jetpackstate
 JetpackState
 JetPackState
 JetpackStateTerrainVirtualTextureAccessEnable
-jF
-jl
-jo
-jO
-JO
 Joinable
 JoinableZone1
 Joined
 JoinFriend
-Jq
 JuiceSessionId
 Jump
 JumpCopBaseBurnSpeed
@@ -6191,7 +6327,6 @@ JumpOut
 JumpTime
 JumpTrooper
 JumpTrooperKills
-Jv
 k
 KeepAlive
 KeepNearPosition
@@ -6252,17 +6387,12 @@ KitIDPlayer
 KitIDPlayerWindDistribution
 KitIDVehicle
 KitSize
-kM
-kn
-ko
 koPrioritiseTargets
 KPH
 Kylo
 KyloCharge
 KyloKills
 l
-L!
-l&F
 L8e9-
 Label
 LabelColor
@@ -6503,7 +6633,6 @@ ListPrice
 ListSize
 lives
 Lives
-LM
 LmgAimNoise
 LmgAimNoiseCOOPStarfighter6TeamBlast
 ln
@@ -6695,7 +6824,6 @@ LowerRamp
 LowHealth
 LowProgress
 Luke
-Lw
 LW_RunAway
 m
 M
@@ -6923,7 +7051,6 @@ MeleeKillValue
 MeleeSwing
 Member
 Members
-mEO
 mesh
 MeshPosition
 MeshVisible
@@ -7063,8 +7190,6 @@ Missions
 Mix
 MixerStart
 MixerStop
-Mk,cu
-Mk,cw
 Ml
 MlD
 Mm
@@ -7072,8 +7197,6 @@ Mm1
 Mm2
 Mm3
 Mme
-mMv
-Mn[
 mO
 mO4
 mode
@@ -7195,7 +7318,6 @@ MovieAmp
 MovieIsPlaying
 MovieStarted
 MovingPosition
-MR
 multi
 MultiPlayer
 MultiPlayerBehaviorMetaData
@@ -7217,7 +7339,6 @@ n1
 n1GroundTransform
 n2
 n3
-N5
 n6
 Name
 NameColor
@@ -7238,7 +7359,6 @@ NavigateRight
 NavigateUp
 NavigationLevelvalue
 Navigators
-NC
 near
 NearDistance
 NearRange
@@ -7279,9 +7399,7 @@ next
 NextOut
 NextPose
 Night
-NKr
 nMessages
-nO
 NoAbilities
 NoClustersDestroyed
 NoClustersDestroyedSelectShowPopup
@@ -7375,11 +7493,6 @@ NumTargets
 nw
 o
 O
-O 2K
-O(
-O(0
-O5
-OB/
 OBBData
 OBBs
 ObectiveATAT_Completed
@@ -8064,7 +8177,6 @@ OnToggle
 OnTopZoneDamage
 OnTopZoneDamageDefend_Phase1_Enemy_HeroVehicleCount_END
 OnTrackedPlayerDestroy
-OnTrackedPlayerDestroyAimingAngularSpeedConstraints
 OnTrackedPlayerKill
 OnTrackedPlayerKilled
 OnTrackedPlayerKilledByEnemy
@@ -8529,8 +8641,6 @@ P
 p_loc
 p_locHideContent
 p_team_id
-P@2
-p`E
 p<x
 p=~
 p0
@@ -8570,8 +8680,6 @@ p28
 p29
 p30
 p31
-p6P
-p7T
 PACPAvailable
 PACPFailed
 pad
@@ -8930,7 +9038,6 @@ PlayType
 PlayUnlock
 PlayUpgrade
 Plength
-pm1
 PodA_Completed
 PodB_Completed
 Point0
@@ -8939,15 +9046,12 @@ Point1A
 Point1Color
 Point1TeamID
 Point2
-Point2A
 Point2AShockwaveDamage
 Point2Color
 Point2TeamID
 Point3
-Point3A
 Point3TeamID
 Point4
-Point4A
 Point4TeamID
 Point5
 Point6
@@ -8997,7 +9101,6 @@ PowerModifier
 PowerModifierWhenFired
 PowerStartTime
 PowerUp
-PQ+2
 Pre_Corvus
 pregame
 PreHack
@@ -9130,7 +9233,6 @@ Qw
 QwHealth
 r
 r1
-R1
 r2
 r3
 Race
@@ -9555,16 +9657,8 @@ RunUpSpawns
 RZ-2A-Wing
 s
 S
-S &n
 S_HOTH_FightersEnabled
 S_MOS_FightersEnabled
-s,[%7
-s,c{s
-s,c{sp
-s,cVV
-s,czW]
-S@
-S`
 S0450_Takeoff
 S0600_Takeoff
 S0600_TakeoffCharacterIdOverride
@@ -10230,6 +10324,7 @@ Skin
 SkinAurebeshName
 SkinDescription
 SkinEmote_Enter
+SkinEmote_Exit
 SkinId
 SkinName
 SkinnedModel
@@ -11018,10 +11113,8 @@ SwordGuardDurationTimeMaxS
 SwordGuardDurationTimeMinS
 t
 T
-T O
 T-65BX-Wing
 T-70X-Wing
-T!,1#
 T00
 T01
 T02
@@ -11035,16 +11128,6 @@ T09
 T09AP_CombatUseMelee
 t1
 T1
-T10
-T11
-T12
-T13
-T14
-T15
-T16
-T17
-T18
-T19
 T1Count
 T1E
 T1Players
@@ -11192,7 +11275,6 @@ TargetWorldPos
 TargetWorldPosBarColor
 Taunt
 Tauntaun
-TD0e1
 team
 Team
 Team 1 Presence
@@ -11573,7 +11655,6 @@ TotalTime
 TotalUintSettingName
 totalWidth
 toTarget
-tQ
 tr
 Tracked
 TrackedObjectiveIndex
@@ -11796,7 +11877,6 @@ UG_VehicleConcussionWeapons
 UG_VehicleIonWeapons
 UG_VehicleIonWeaponsAntGameStates
 UH
-UH.Q
 UI
 UI/Assets/Customize/Soldier/MouthProp/Soldier_MouthProp_OctopusBeard
 UIAlpha
@@ -11832,6 +11912,7 @@ Uncommon
 UncommonBankingSpeed
 Undefined
 Undeploy
+UnDeploy
 under
 Underage
 UnderFire
@@ -12391,7 +12472,6 @@ WhenOutsideCombatActivatedJt
 WhichTeamIncreased
 white
 White
-WhooshbyTriggerSeparatingDistanceThreshold!APVehicleSpawn_Enabled_Defend_END
 widget
 WidgetAlpha
 widgetSize
@@ -12426,7 +12506,6 @@ WipeTypeGradientToCenter
 withinRange
 WithinRange
 WithinVolume
-WL
 WlkDestroy0Left
 WlkDestroy1Left
 wobble
@@ -12457,7 +12536,6 @@ WorldVehicleTransform
 WorldWeaponTransform
 WorldWeaponTransformOut
 WriteOnce
-WriteOnPropertyChangedArcade_BS_Solo_D_4_2
 WSClass
 WSClass_Assault
 WSClass_AssaultStreamInDreadnought
