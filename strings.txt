@@ -10271,6 +10271,7 @@ SoldierEntry
 SoldierFollower
 SoldierHealth
 SoldierHeavy
+SoldierHudEnabled
 SoldierMaxBaseHealth
 SoldierMaxBonusHealth
 SoldierOfficer
