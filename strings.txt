@@ -1347,6 +1347,7 @@ BotReductionPerVehicle_Coop
 BotTeam
 BotTeam_AP_Attack
 BotTeam_AP_Defend
+BottomAbility
 bottomDisk01Part2_joint1
 bottomDisk03Part1_joint1
 bottomDiskCenter_joint1
