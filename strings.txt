@@ -23,7 +23,9 @@ _Transform
 0.3
 0.5
 0Players
+1
 1 Engine
+10
 1CP
 1CPs
 1Finished
@@ -33,6 +35,7 @@ _Transform
 1Players
 1s
 1WalkerRemain
+2
 2 Engines
 24Players
 2CP
@@ -44,14 +47,21 @@ _Transform
 2P
 2Players
 2WalkerRemain
+3
 3 Engines
 360
 3CP
 3CPs
 3Players
+4
 4 Engines
 4CPs
 4Players
+5
+6
+7
+8
+9
 a
 A
 A!=B
@@ -1337,6 +1347,7 @@ BotReductionPerVehicle_Coop
 BotTeam
 BotTeam_AP_Attack
 BotTeam_AP_Defend
+BottomAbility
 bottomDisk01Part2_joint1
 bottomDisk03Part1_joint1
 bottomDiskCenter_joint1
@@ -9023,6 +9034,7 @@ PriceCrystals
 PriceCrystalsOverridePriority
 PriceCurrency
 PriceToSpawn
+PrimaryAbility
 PrimaryAction
 PrimaryObjective
 PrimaryObjectiveDestroyed
@@ -10261,6 +10273,7 @@ SoldierEntry
 SoldierFollower
 SoldierHealth
 SoldierHeavy
+SoldierHudEnabled
 SoldierMaxBaseHealth
 SoldierMaxBonusHealth
 SoldierOfficer
