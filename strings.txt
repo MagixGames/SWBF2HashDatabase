@@ -9033,6 +9033,7 @@ PriceCrystals
 PriceCrystalsOverridePriority
 PriceCurrency
 PriceToSpawn
+PrimaryAbility
 PrimaryAction
 PrimaryObjective
 PrimaryObjectiveDestroyed
